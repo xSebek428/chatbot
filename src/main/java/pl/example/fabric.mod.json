@@ -1,0 +1,23 @@
+
+{
+  "schemaVersion": 1,
+  "id": "botmod",
+  "version": "1.0.0",
+  "name": "BotMod",
+  "description": "Testowy mod Fabric",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.example.botmod.BotMod"
+    ],
+    "client": [
+      "pl.example.botmod.BotModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

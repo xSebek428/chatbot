@@ -18,7 +18,7 @@ public final class BotModClient implements ClientModInitializer {
                         "key.botmod.open_menu",
                         InputUtil.Type.KEYSYM,
                         GLFW.GLFW_KEY_O,
-                        KeyBinding.Category.MISC
+                        "key.categories.misc"
                 )
         );
 
